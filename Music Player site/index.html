@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ON</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+
+
+  <header class="container-fluid">
+    <div class="row">
+      <div class=" left-bar  col-sm-4 ">
+        <h1 class="m-3 fw-bolder ">Playlist</h1>
+        <div class="playlist  text-muted m-3 pt-4">
+          <h4 class="mb-3 active"><span></span><i class="bi bi-music-note-list me-4"></i>Playlist</h4>
+          <h4 class="mb-3"><i class="bi bi-circle me-4"></i><span></i></span>Last played</h4>
+          <h4 class="mb-3"><i class="bi bi-circle me-4"></i><span></i></span>Recommended </h4>
+        </div>
+        <!-- menu song  -->
+        <div class="menu_song  mt-5 mb-3 shadow-lg rounded ">
+          <!-- 01 Song list  -->
+          <li class="songItem p-3  shadow mb-2">
+            <span class="me-4 text-muted ">01</span>
+            <img src="Images/1.jpeg" alt="" class="me-3">
+            <h5 class="mt-1 mb-1">On My Way
+              <div class="subtitle text-muted ">Alan Walker</div>
+            </h5>
+            <i class=" playlistplaybtn bi bi-play-circle-fill position-absolute " id="1"></i>
+          </li>
+
+          <!-- 02  -->
+          <li class="songItem p-3 shadow mb-2">
+            <span class="me-4 text-muted ">02</span>
+            <img src="/Images/1.jpeg" alt="" class="me-3">
+            <h5 class="mt-1 mb-1">On My Way
+              <div class="subtitle text-muted ">Alan Walker</div>
+            </h5>
+            <i class=" playlistplaybtn bi bi-play-circle-fill position-absolute " id="2"></i>
+          </li>
+          <!-- 03 -->
+          <li class="songItem p-3 shadow mb-2">
+            <span class="me-4 text-muted ">03</span>
+            <img src="/Images/1.jpeg" alt="" class="me-3">
+            <h5 class="mt-1 mb-1">On My Way
+              <div class="subtitle text-muted ">Alan Walker</div>
+            </h5>
+            <i class=" playlistplaybtn bi bi-play-circle-fill position-absolute " id="3"></i>
+          </li>
+          <!-- 04 -->
+          <li class="songItem p-3 shadow mb-2">
+            <span class="me-4 text-muted ">04</span>
+            <img src="/Images/1.jpeg" alt="" class="me-3">
+            <h5 class="mt-1 mb-1">On My Way
+              <div class="subtitle text-muted ">Alan Walker</div>
+            </h5>
+            <i class=" playlistplaybtn bi bi-play-circle-fill position-absolute " id="4"></i>
+          </li>
+          <!-- 05  -->
+          <li class="songItem p-3 shadow mb-2">
+            <span class="me-4 text-muted ">05</span>
+            <img src="/Images/1.jpeg" alt="" class="me-3">
+            <h5 class="mt-1 mb-1">On My Way
+              <div class="subtitle text-muted ">Alan Walker</div>
+            </h5>
+            <i class=" playlistplaybtn bi bi-play-circle-fill position-absolute " id="5"></i>
+          </li>
+          <!-- 06  -->
+          <li class="songItem p-3 shadow mb-2">
+            <span class="me-4 text-muted ">06</span>
+            <img src="/Images/1.jpeg" alt="" class="me-3">
+            <h5 class="mt-1 mb-1">On My Way
+              <div class="subtitle text-muted ">Alan Walker</div>
+            </h5>
+            <i class=" playlistplaybtn bi bi-play-circle-fill position-absolute " id="6"></i>
+          </li>
+          <!-- 07 -->
+
+        </div>
+      </div>
+
+
+
+
+
+      <div class=" right-bar col-sm-8">
+        <div class="song_slide">
+          <nav>
+            <ul class="m-3">
+              <li> Discover <span></span> </li>
+              <li>MY LIBRARY</li>
+              <li>RADIO </li>
+            </ul>
+            <div class="search d-flex">
+              <i class="bi bi-search "></i>
+              <input type="search" placeholder="Search..">
+            </div>
+            <div class="user shadow-lg">
+              <img src="/Images/2.png" alt="" title="Develope's Zone">
+            </div>
+          </nav>
+
+          <div class="content">
+            <h1>Alen Walker-Fade</h1>
+            <p class="text-muted">You were the shadow to my light
+              Did you feel us?Another star, you fade away <br>
+              Afraid our aim is out of sight
+              Wanna see us alight
+            </p>
+
+            <div class="buttons mt-3">
+              <button type="button" class="btn btn-light">PLAY</button>
+              <button type="button" class="btn btn-light">FOLLOW</button>
+            </div>
+
+            <div class="popular-song">
+              <div class="h4">
+                <h4>Popular Song</h4>
+                <div class="btn">
+                  <i id="left-scroll" class="bi bi-arrow-left-short"></i>
+                  <i id="right-scroll" class="bi bi-arrow-right-short"></i>
+                </div>
+              </div>
+              <div class="pop_song">
+                <li class="songItem">
+                  <div class="img_play ">
+                    <img src="/Images/1.jpeg" alt="">
+                    <i class=" playlistplaybtn bi bi-play-circle-fill  " id="7"></i>
+                  </div>
+                  <h5 class="mt-1 mb-1">On My Way
+                    <div class="subtitle text-muted ">Alan Walker</div>
+                  </h5>
+                </li>
+
+
+                <li class="songItem">
+                  <div class="img_play">
+                    <img src="/Images/1.jpeg" alt="">
+                    <i class=" playlistplaybtn bi bi-play-circle-fill position-absolute " id="8"></i>
+                  </div>
+                  <h5 class="mt-1 mb-1">On My Way
+                    <div class="subtitle text-muted ">Alan Walker</div>
+                  </h5>
+                </li>
+
+
+                <li class="songItem">
+                  <div class="img_play">
+                    <img src="/Images/1.jpeg" alt="">
+                    <i class=" playlistplaybtn bi bi-play-circle-fill position-absolute " id="9"></i>
+                  </div>
+                  <h5 class="mt-1 mb-1">On My Way
+                    <div class="subtitle text-muted ">Alan Walker</div>
+                  </h5>
+                </li>
+
+
+                <li class="songItem">
+                  <div class="img_play">
+                    <img src="/Images/1.jpeg" alt="">
+                    <i class=" playlistplaybtn bi bi-play-circle-fill position-absolute " id="10"></i>
+                  </div>
+                  <h5 class="mt-1 mb-1">On My Way
+                    <div class="subtitle text-muted ">Alan Walker</div>
+                  </h5>
+                </li>
+
+
+                <li class="songItem">
+                  <div class="img_play">
+                    <img src="/Images/1.jpeg" alt="">
+                    <i class=" playlistplaybtn bi bi-play-circle-fill position-absolute " id="11"></i>
+                  </div>
+                  <h5 class="mt-1 mb-1">On My Way
+                    <div class="subtitle text-muted ">Alan Walker</div>
+                  </h5>
+                </li>
+
+
+                <li class="songItem">
+                  <div class="img_play">
+                    <img src="/Images/1.jpeg" alt="">
+                    <i class=" playlistplaybtn bi bi-play-circle-fill position-absolute " id="12"></i>
+                  </div>
+                  <h5 class="mt-1 mb-1">On My Way
+                    <div class="subtitle text-muted ">Alan Walker</div>
+                  </h5>
+                </li>
+
+
+                <li class="songItem">
+                  <div class="img_play">
+                    <img src="/Images/1.jpeg" alt="">
+                    <i class=" playlistplaybtn bi bi-play-circle-fill " id="13"></i>
+                  </div>
+                  <h5 class="mt-1 mb-1">On My Way <br>
+                    <div class="subtitle text-muted ">Alan Walker</div>
+                  </h5>
+                </li>
+              </div>
+            </div>
+
+            <div class="Popular_artist fw-bolder">
+              <div class="h4">
+                <h4>Popular Artist</h4>
+                <div class="btn">
+                  <i id="left-scrolls" class="bi bi-arrow-left-short"></i>
+                  <i id="right-scrolls" class="bi bi-arrow-right-short"></i>
+                </div>
+              </div>
+              <div class="item">
+                <li>
+                  <img src="/Images/i1.jpeg" alt="">
+                </li>
+                <li>
+                  <img src="/Images/i2.jpeg" alt="">
+                </li>
+                <li>
+                  <img src="/Images/i3.jpeg" alt="">
+                </li>
+                <li>
+                  <img src="/Images//e4.jpeg" alt="">
+                </li>
+                <li>
+                  <img src="/Images/i5.jpeg" alt="">
+                </li>
+                <li>
+                  <img src="/Images/i6.jpeg" alt="">
+                </li>
+                <li>
+                  <img src="/Images/i7.jpeg" alt="">
+                </li>
+                <li>
+                  <img src="/Images/e1.jpeg" alt="">
+                </li>
+                <li>
+                  <img src="/Images/e2.jpeg" alt="">
+                </li>
+                <li>
+                  <img src="/Images/e3.jpeg" alt="">
+                </li>
+                <li>
+                  <img src="/Images/e4.jpeg" alt="">
+                </li>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+        <!-- bottom-player  -->
+        <div class="master-player fixed-bottom shadow-lg ">
+          <div class=" wave mx-3">
+            <div class="wave1"></div>
+            <div class="wave1"></div>
+            <div class="wave1 "></div>
+
+          </div>
+          <img src="/Images/1.jpeg" alt="" class="me-3" id="Poster_for_masterplay">
+          <h5 class="mt-1 mb-1" id="master-play-title">On My Way
+            <div class="subtitle text-muted ">Alan Walker</div>
+          </h5>
+          <div class="icon">
+            <i class="bi bi-skip-start-fill" id="pre"></i>
+            <i class="bi bi-play-fill" id="masterplay"></i>
+            <i class="bi bi-skip-end-fill" id="next"></i>
+          </div>
+          <span id="currentStart">0:00</span>
+          <div class="bar">
+            <input type="range" id="seek" min="0" max="100" value="0">
+            <div class="bar2" id="bar2"></div>
+            <div class="dot"></div>
+          </div>
+          <span id="currentEnd">0:00</span>
+          <div class="vol">
+            <i class="bi bi-volume-down-fill" id="vol_icon"></i>
+            <input type="range" id="vol" min="0" max="100" value="30">
+            <div class="vol_bar"></div>
+            <div class="dot" id="vol_dot"></div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
