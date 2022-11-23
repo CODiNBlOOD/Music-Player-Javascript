@@ -1,16 +1,16 @@
 # What is Artificial Intelligence?
 
-#What is AI?
-##Why AI?
-###Goals of AI?
-####Advantages of AI
-#####Disadvantages of AI
+# What is AI?
+## Why AI?
+### Goals of AI?
+### Advantages of AI 
+### Disadvantages of AI
 
 -- You get all the information on  [GitHub](https://github.com/CODiNBlOOD/Artificial_Intelligence_Important_Notes-/blob/main/Q1-Define-AI.pdf) :D
 
 In today's world, technology is growing very fast, and we are getting in touch with different new technologies day by day.
 
-**#What is Artificial Intelligence?**
+# What is AI?
 
 
 Here, one of the booming technologies of computer science is Artificial Intelligence which is ready to create a new revolution in the world by making intelligent machines.Artificial Intelligence is now all around us. It is currently working with a variety of subfields,  such as self-driving cars, playing chess, proving theorems, playing music, Painting, etc.
@@ -26,7 +26,7 @@ With Artificial Intelligence you do not need to pre program a machine to do some
 It is believed that AI is not a new technology, and some people say that as per Greek myth, there were Mechanical men in the early days who can work and behave like humans.
 
 
-##Why AI??
+## Why AI?
 
 Before Learning about Artificial Intelligence, we should know what is the importance of AI and why should we learn it. Following are some main reasons to learn about AI:
 
@@ -35,7 +35,7 @@ With the help of AI, you can create your personal virtual Assistant, such as Cor
 With the help of AI, you can build such Robots which can work in an environment where the survival of humans can be at risk.
 
 
-###Goals of AI?
+### Goals of AI?
 
 Replicate human intelligence
 Solve Knowledge-intensive tasks
@@ -47,7 +47,7 @@ Plan some surgical operation
 Driving a car in traffic
 Creating some system which can exhibit intelligent behaviour, learn new things by itself, demonstrate, explain, and can advise its user.
 
-####Advantages of Artificial Intelligence
+### Advantages of AI 
 
 
 The following are some main advantages of Artificial Intelligence:
@@ -65,7 +65,7 @@ Digital Assistant: AI can be very useful to provide digital assistance to the us
 Useful as a public utility: AI can be very useful for public utilities such as a self-driving cars which can make our journey safer and hassle-free, facial recognition for security purposes, Natural language processing to communicate with humans in human language, etc.
 
 
-#####Disadvantages of Artificial Intelligence
+### Disadvantages of AI
 
 Every technology has some disadvantages, and the same goes for Artificial intelligence. Being so advantageous technology still, has some disadvantages which we need to keep in our mind while creating an AI system. The following are the disadvantages of AI:
 
